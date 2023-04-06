@@ -86,7 +86,7 @@
 .sr-reader .sr-word-box .sr-progress {
   position: absolute;
   bottom: -27px;
-  width: 1080px;
+  width: 400px;
   height: 13px;
   border-left: 0px solid #CCC;
   -moz-box-sizing: border-box;
