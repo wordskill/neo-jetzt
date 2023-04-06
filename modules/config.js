@@ -25,7 +25,7 @@
           "message": "#909090",
           "pivot": "#73b5ee",
           "progress_bar_background": "#000000",
-          "progress_bar_foreground": "#3a5566",
+          "progress_bar_foreground": "#00c00a",
           "reticle": "#656565",
           "wrap_background": "#404040",
           "wrap_foreground": "#a1a1a1"
