@@ -67,7 +67,7 @@
     // if we change config structure in future versions, having this means
     // we can update users' persisted configs to match.
     config_version: CONFIG_VERSION,
-    target_wpm: 400,
+    target_wpm: 600,
     scale: 1,
     dark: false,
     selected_theme: 0,
@@ -286,7 +286,7 @@
   };
 
   config.adjustScale = function (diff) {
-    this("scale", H.clamp(0, options.scale + diff, 1));
+    this("scale", H.clamp(0, options.scale + diff, 5));
   };
 
 
