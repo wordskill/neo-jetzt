@@ -21,7 +21,7 @@
 }
 
 .sr-reader {
-  height: 300px;
+  height: 270px;
   display: -webkit-flex;
   -webkit-flex-direction: row;
   display: flex;
@@ -53,13 +53,13 @@
 
 
 .sr-reader > .sr-wrap {
-  min-width: 120px;
-  font-size: 150px;
+  min-width: 108px;
+  font-size: 135px;
   -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
-  padding: 45px 15px;
-  line-height: 180px;
+  padding: 40px 13px;
+  line-height: 162px;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
@@ -78,16 +78,16 @@
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-  width: 1200px;
+  width: 1080px;
   position: relative;
 }
 
 
 .sr-reader .sr-word-box .sr-progress {
   position: absolute;
-  bottom: -30px;
-  width: 1200px;
-  height: 15px;
+  bottom: -27px;
+  width: 1080px;
+  height: 13px;
   border-left: 0px solid #CCC;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -101,27 +101,27 @@
   position: absolute;
   display: none;
   top: 0;
-  right: 12px;
-  font-size: 60px;
+  right: 11px;
+  font-size: 54px;
   text-align: right;
 }
 
 .sr-reader .sr-word-box .sr-reticle {
   position: absolute;
-  left: 330px;
-  height: 300px;
-  width: 30px;
-  border-top: 60px solid #CCC;
-  border-bottom: 60px solid #CCC;
+  left: 297px;
+  height: 279px;
+  width: 27px;
+  border-top: 54px solid #CCC;
+  border-bottom: 54px solid #CCC;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 .sr-reader .sr-word-box .sr-wpm {
   position: absolute;
-  right: 12px;
+  right: 11px;
   bottom: 0px;
-  font-size: 60px;
+  font-size: 54px;
   box-sizing: border-box;
 }
 
@@ -134,7 +134,7 @@
 }
 
 .sr-reader .sr-word-box .sr-word > span {
-  font-size: 150px;
+  font-size: 135px;
 }
 
 
